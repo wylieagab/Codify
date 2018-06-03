@@ -1,0 +1,58 @@
+h1 {
+	color: red;
+	background-color: black;
+	margin: 0;
+}
+
+h2 {
+	color: blue;
+	margin: 0;
+}
+
+h3 {
+	color: green;
+	margin : 0;
+}
+
+body {
+	margin: 0;
+}
+
+
+
+a {
+	display: block;
+	clear: left;
+
+}
+
+img {
+	display: block;
+	background-color: grey;
+	margin: 0;
+
+}
+div {
+	background-color: grey;
+	margin: 0;
+}
+
+nav {
+	background-color: gray;
+	margin: 0;
+}
+
+nav ul {
+	margin:0;
+}
+
+nav ul li {
+	display: inline;
+	align-self: right;	
+} 
+
+nav ul li a {
+	text-decoration: none;
+	display: inline;
+	align-self: right;
+}
