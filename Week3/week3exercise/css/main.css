@@ -1,0 +1,50 @@
+nav {
+	position: absolute;
+	width: 100%;
+	background-color: grey;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	text-decoration:none;
+	padding: 0 20px;
+}
+
+a {
+	color: cyan;
+}
+
+li:hover {
+	background-color: lightgreen;
+	border: 1px solid black;
+	transition: 0.5s ease;
+}
+
+li a:hover {
+	color: pink;
+	font-size: 20px;
+	transition: 0.5s ease;
+}
+
+div {
+	background-color: grey;
+	height: 300px;
+	width: 100%;
+	text-align: center;
+}
+
+button {
+	border: 0;
+	box-shadow: none;
+	border-radius: 5px;
+	-webkit-appearance: none;
+	background-color: lightblue;
+}
+
+button:hover {
+	background-color: blue;
+	transition: 0.5s ease;
+	color: white;
+}
+
