@@ -1,0 +1,43 @@
+body {
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	height: 100px;
+	width: 20%;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.container {
+	height: 100px;
+	width: 200px;
+	background-color: grey;
+}
+
+@media (max-width: 600px) {
+	.green, .blue {
+		display: none;
+	}
+}
+
+@media (min-width: 1000px) {
+	.box {
+		width: 100%;
+	}
+}

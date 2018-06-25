@@ -1,0 +1,328 @@
+@font-face {
+    font-family: bobobold;
+    src: url(../fonts/bobobold.ttf);
+}
+
+body {
+	text-align: center;
+	background-color: black;
+}
+
+nav {
+	background-color: #F19773;
+	margin: 0 auto;
+	width: 90%;
+	height: 125px;
+	overflow: scroll;
+}
+
+div {
+	height: 620px;
+	margin: 0;
+	padding: 0;
+	display:inline-block;
+	text-align: center;
+}
+
+div.wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+
+div.left {
+	width: 40%;
+
+
+}
+
+div.left img {
+	padding-top: 100px;
+
+}
+
+div.right {
+	width: 50%;
+	float: right;
+	/*padding-right: ;*/
+}
+
+footer {
+	background-color: #92B796;
+	width: 90%;
+	padding: 0;
+	margin: 0 auto;
+	height: 125px;
+	display: inline-block;
+	text-align: center;
+}
+
+ul {
+	
+	margin: 0 auto;
+
+}
+
+ul.bottom {
+	
+}
+
+li {
+	display: inline-block;
+	font-size: 30px;
+	font-family: bobobold;
+	color: #F7F2D5;
+	padding: 40px 20px;
+}
+
+li.logo {
+	padding-right: 300px;
+}
+
+div {
+	background-color: #F7F2D5;
+}
+
+img {
+	padding: 0;
+	margin-right: 20px;
+}
+
+section {
+	text-align: left;
+}
+
+p {
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-right: 50px;
+	font-family: bobobold;
+	font-size: 45px;
+	color: #8BAD75;
+}
+
+.orange {
+	color: #F19773;
+}
+
+.backg-orange {
+	background-color: #F19773;
+}
+
+.backg-green {
+	background-color: #8BAD75;
+}
+
+span.enlarge {
+	font-weight: bold;
+	font-size: 50px;
+	color: #8BAD75;
+}
+
+section.button-wrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+
+button.call-action {
+	border: none;
+	height: 70px;
+	width: 280px;
+	margin-top: 50px;
+	margin-left: 10px;
+	color: #F7F2D5;
+	font-size: 20px;
+}
+
+/*Search Bar*/
+* {
+  box-sizing: border-box;
+}
+
+form {
+
+}
+
+/* Style the submit button */
+form.example button {
+  float: right;
+  width: 60px;
+  padding: 10px;
+  height: 60px;
+  /*background: #2196F3;*/
+  color: grey;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  margin-right: 50px;
+  margin-top: 15px;
+  box-shadow: 2px 5px 5px 5px grey;
+  clip-path: inset(-5px -5px -5px -5px);
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 200px;
+  background: #f1f1f1;
+  border-right: none;
+  margin-top: 15px;
+  box-shadow: 5px 5px 5px 5px grey;
+  clip-path: inset(-5px 0px -5px -5px);
+  height: 60px;
+}
+
+
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (max-width: 1400px) {
+	li {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 1300px) {
+	p {
+		font-size: 35px;
+	}
+
+	li {
+		font-size: 20px;
+	}
+
+	span.englarge {
+		font-size: 40px;
+		font-weight: normal;
+	}
+
+	img {
+		height: 400px;
+		width: 400px;
+	}
+
+	button.call-action.backg-orange {
+		margin-top: 50px;
+	}
+	
+}
+
+@media (max-width: 1125px) {
+	nav {
+		height: 100px;
+	}
+
+	nav li {
+		font-size: 12px;
+	}
+
+	button.call-action {
+		margin-top: 40px;
+		margin-left: 80px;
+		margin-bottom: 20px;
+		width: 200px;
+		font-size: 15px;
+		display: block;
+		
+	}
+
+	button.call-action.backg-orange {
+		margin-top: 10px;
+	}
+
+	p {
+		font-size: 30px;
+	}
+
+	span.enlarge {
+		font-size: 35px;
+	}
+
+}
+
+@media (max-width: 935px) {
+	nav li.logo {
+		margin-right: 0;
+		padding-right: 75px;
+	}
+
+	img {
+		height: 300px;
+		width: 300px;
+		margin-top: 100px;
+	}
+
+	form.example button {
+		width: 40px;
+		height: 50px;
+	}
+
+	form.example input[type=text] {
+		width: 100px;
+		height: 50px;
+	}
+}
+
+@media (max-width: 685px) {
+	nav li.logo {
+		padding-right: 10px;
+		font-size: 10px;
+		transition: 1s ease;
+	}
+
+	nav li {
+		font-size: 10px;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	form.example button {
+		width: 30px;
+		height: 40px;
+	}
+
+	form.example input[type=text] {
+		width: 75px;
+		height: 40px;
+	}
+
+	img {
+		height: 200px;
+		width: 150px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	span.enlarge {
+		font-size: 25px;
+	}
+
+	div {
+		height: 550px;
+	}
+
+	button.call-action {
+		margin-top: 20px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		width: 150px;
+		height: 45px;
+		font-size: 10px;
+		display: block;
+		
+	}
+}
