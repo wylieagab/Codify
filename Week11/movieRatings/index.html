@@ -16,17 +16,22 @@
 </head>
 <body>
 	
-	<input type="search" value="Input in me"/>
-	<button onclick="textIn()"> Click ME </button>
-	<button onclick="sortMe()"> Sort </button>
-	<button onclick="removeLast()"> Remove Last </button>
-	<button onclick="removeFirst()"> Remove First </button>
-	<ul id="myUl">
-	
-	</ul>
+	<div class="container"> 
+		<div class="row justify-content-center">
+			<div class="col-4" style="background-color:red">
+				<h3 id="movie"> Star Wars </h3>
+				<p id='rating'> Rating: 5/5 </p>
+			</div>
+			<div class="col-4" style="background-color:blue">
+				Enter Name:  <input id='mName' type="text" name='title'><br>
+				Enter Rating: <input id='mRate' type="text" name='number'><br>
+				<input id='mSubmit' type='submit' value='Enter Here'>
+			</div>
+			
+		</div>
+	</div>
 
-
-	<!-- Bootstrap JQuerry library-->
+	<!-- Bootstrap JQuery library-->
 	<script src="https://code.jquery.com/jquery-3.3.1.js"
   	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   	crossorigin="anonymous"></script>
