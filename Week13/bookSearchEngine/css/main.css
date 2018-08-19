@@ -1,0 +1,34 @@
+body {
+	/*background-image: url('https://www.card.com/sites/default/files/styles/card_gallery_image_medium/public/card_images/Card-Cheetah-pattern-1.jpg?itok=obi4ucD9');*/
+	background-color: black;
+	text-align: center;
+}
+
+div {
+	background-color: tomato;
+	width: 50%;
+	border-radius: 30px;
+	margin: 0 auto;
+	border-bottom: 2px black solid;
+}
+
+img {
+	width: 128px;
+	height: 200px;
+}
+
+a {
+	width: 100px;
+	height: 40px;
+	margin: 10px 10px;
+	text-align: center;
+
+}
+
+#result > div {
+	width: 100%;
+}
+
+#result > div > h3 {
+	padding-top: 5px;
+}

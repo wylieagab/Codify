@@ -1,0 +1,181 @@
+* {
+    transition: 0.5s ease;
+    box-sizing: border-box;
+}
+
+body {
+	overflow: scroll;
+}
+
+nav > ul >li:first-child {
+	background-color: #BC5450;
+}
+
+nav > ul {
+	background-color: #E4A59C;
+}
+
+ul {
+	list-style-type: none;
+	height: 100vh;
+	padding: 0;
+}
+
+li {
+	padding: 20px 5px;
+	font-size: 35px;
+	padding-left: 25px;
+}
+
+nav {
+	top: 0;
+	right: 0;
+	position: fixed;
+	width: 9%;
+	height: 100vh;
+	z-index: 2;
+}
+
+nav > ul > li > button {
+	background-color: #E0EAEE;
+	border: 3px white solid;
+	border-radius: 5px;
+}
+
+section.wrapper {
+	height: 100vh;
+	width: 100%;
+	background-color: #B6CABC;
+	position: fixed;
+	z-index: 1;
+	overflow: scroll;
+}
+
+section.wrapper > div {
+	background-color: #E0EAEE;
+	/*margin: 10px 10px;*/
+	width: 40%;
+	text-align: center;
+}
+
+div.userInfo {
+	height: 700px;
+	padding-top: 10px;
+	text-align: center;
+	margin: 75px;
+	display: inline-block;
+	float:left;
+	margin-right: 25px;
+	margin-bottom: 20px;
+
+}
+
+div.userInfo > h2 {
+	padding-top: 100px;
+}
+
+div.userInfo > img {
+	padding-top: 50px;
+}
+
+div.clock {
+	height: 500px;
+	display: inline-block;
+	padding-top: 10px;
+	margin-top: 75px;
+	overflow: scroll;
+	float: right;
+	margin-right: 75px;
+}
+
+div.clock > h5 {
+	padding-top: 50px;
+}
+
+div.clock > h3 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+div.progress > h3 {
+	margin-top: 13px;
+	margin-left: 25px;
+	padding-top: 8px;
+}
+
+div.clock > div.progress > div.complete {
+	background-color: grey;
+	position: relative;
+	width: 100px;
+	margin-left: 15px;
+}
+
+div.clock > div.progress {
+	width: 150px;
+	height: 75px;
+	background-color: #00bcd4;
+	color: white;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+div.clock > button {
+	margin-top: 75px;
+	border-radius: 15px;
+	border: 3px solid #B6CABC;
+	background-color: #E0EAEE;
+	width: 100px;
+	height: 50px;
+}
+
+div.clock > button:hover {
+	background-color: #E0EAEE;
+	
+}
+
+div.courses {
+	height: 500px;
+	display: inline-block;
+	margin-top: 20px;
+	float: right;
+	margin-right: 75px;
+	margin-bottom: 75px;
+}
+
+div.links {
+	height: 200px;
+	display: inline-block;
+	margin-bottom: 100px;
+	margin-left: 75px;
+
+}
+
+div > img {
+	height: 350px;
+	width: 350px;
+	border-radius: 50%;
+}
+
+ul.courseUL {
+	margin: 0;
+	height: 500px;
+}
+
+ul.simplifyMe {
+	display: inline;
+	list-style-type: none;
+	height: 200px;
+	padding-top: 50px !important;
+	margin: 0;
+	padding-left: 0;
+}
+
+div.makeSpace {
+	background-color: #E0EAEE;
+	height: 70px;
+}
+
+div.links li {
+	display: inline;
+	margin-top: 20px;
+}
